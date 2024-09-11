@@ -2,7 +2,8 @@
 
 Скачиваем архив с githab
 
-![Screenshot_1](https://github.com/user-attachments/assets/49f58a7c-5ec5-4c93-b52a-178621ed32e7)
+![Screenshot_1](https://github.com/user-attachments/assets/f32c2c93-3cce-48a6-8452-13aa4b20a3df)
+
 
 
  
@@ -10,22 +11,25 @@
 
 Разархивируем 
 
-![Screenshot_2](https://github.com/user-attachments/assets/dc88b974-9314-475d-85bd-a1c142f3c979)
+![Screenshot_2](https://github.com/user-attachments/assets/6b123aaf-96f4-46b5-a5ba-1c8b49dc03aa)
+
 
 
 ## Шаг 3
 
 В папке с проектом находим файл index.html и нажимаем на него 2 раза 
 
-![Screenshot_3](https://github.com/user-attachments/assets/022aa261-8026-4a0d-821f-96bffc1f9953)
+![Screenshot_3](https://github.com/user-attachments/assets/4f876c92-3811-4195-bbb7-39f7d1ea2b0a)
+
 
 
  
 ## Шаг 4
 
-Готово, в браузере откроется проект Austera
+Готово, в браузере откроется проект Minimo
 
-![Screenshot_4](https://github.com/user-attachments/assets/ffb00171-e44d-4aa0-b63b-e39a61cbbffd)
+![Screenshot_4](https://github.com/user-attachments/assets/5cf7a2ae-525c-40f4-8912-fe481c91f931)
+
 
 
 
