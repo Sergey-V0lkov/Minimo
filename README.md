@@ -9,6 +9,6 @@
 - bootstrap :heavy_check_mark:
 - JavaScript :heavy_multiplication_x:
 ---
-Что бы скачать себе данный проект, следуйте инструкции по ссылке::point_down:
+Что бы скачать себе данный проект, следуйте инструкции по ссылке: :point_down:
 
 https://github.com/Sergey-V0lkov/Bicycle/blob/main/INSTRUCTION.md
