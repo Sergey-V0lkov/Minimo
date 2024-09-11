@@ -1,0 +1,313 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*СТИЛИ ДЛЯ ВСЕГО САЙТА*/
+
+
+body{
+	font-family: 'Playfair Display', serif; /*подключаем шрифт*/
+	margin: 0px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*СТИЛИ ДЛЯ HEADER (ВЕРХУШКА САЙТА)*/
+
+header{
+	height: 160px; /*высота шапки*/
+}
+
+header div img{
+    display: inline-block;
+	margin-top: 70px; 
+}
+
+header nav ul{
+	list-style-type: none; /*сбрасываем маркировку*/
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+header nav ul li{
+	font-size: 14px; /*размер текста*/
+	text-transform: uppercase; /*делаем текст капсом */
+	display: inline-block; /*это что бы они встали друг за другом*/
+	margin-top: 70px;
+	
+}
+
+header nav ul li.li1{
+    margin-right: 118px;
+}
+
+header nav ul li.li2{
+    margin-right: 103px;
+}
+
+header nav ul li.li3{
+    margin-right: 92px;
+}
+
+header nav ul li a{
+	text-decoration: none; /*убираем подчеркивание*/
+	color: #626262; /*цвет текста*/
+}
+
+header nav ul li a:hover{
+	text-decoration: underline; /*делаем нижнее подчеркивание*/
+	color: #626262; /*цвет текста*/
+}
+
+
+
+
+
+
+/*
+
+header{
+	border: 5px solid red;
+}
+
+header div img{
+	border: 1px solid blue;
+}
+
+header nav ul{
+	border: 5px solid green;
+}
+
+header nav ul li{
+    border: 1px solid blue;
+}
+*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+section.content-post{
+	margin-top:  90px ;
+	padding: 0 80px;
+}
+
+section.content-post div.category a, section.content-post a.comment{
+	color: #b4ad9e;
+	text-transform: uppercase;/*делаем текст капсом*/
+	font-size: 14px;
+	text-decoration: none; /*убираем подчеркивание*/ 
+	font-family: 'Ubuntu', sans-serif;
+}
+
+section.content-post div.category a:hover, section.content-post a.comment:hover{
+	text-decoration: underline;
+	}
+
+
+section.content-post h2{
+	color: #626262;
+	font-size: 30px;
+}
+
+section.content-post div.content p{
+	color: #626262;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+/*
+
+article div.post-img {
+ border: 5px solid green;
+} 
+
+section.content-post{
+ border: 5px solid red;
+}
+
+article div.post-img img{
+ border: 1px solid blue;
+} 
+
+section.content-post div.category span{
+	 border: 1px solid blue;
+}
+
+section.content-post div.content p{
+	border: 1px solid blue;
+}
+
+section.content-post h2{
+	border: 1px solid blue;
+}
+
+section.content-post div.category a, section.content-post a.comment{
+	border: 1px solid blue;
+}
+*/
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+section.next-post{
+	margin-top: 90px;
+	padding: 0 80px;
+}
+
+
+section.next-post div.category a, section.next-post a.comment{
+	display: block;
+	color: #b4ad9e;
+	text-transform: uppercase;/*делаем текст капсом*/
+	font-size: 14px;
+	text-decoration: none; /*убираем подчеркивание*/ 
+	margin-top: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+section.next-post div.category a:hover, section.next-post a.comment:hover{
+	text-decoration: underline;
+	}
+
+section.next-post h2{
+	color: #626262;
+	font-size: 30px;
+}
+
+section.next-post div.content p{
+	color: #626262;
+	font-size:14px;
+}
+
+
+section.next-post div.post3, section.next-post div.post4{
+	margin-top: 130px;
+}
+
+
+
+
+
+
+
+
+/*
+
+section.next-post div.post img{
+	 border: 5px solid red;
+} 
+
+section.next-post div.post{
+	 border: 5px solid black;
+} 
+
+section.next-post div.content p{
+	border: 1px solid blue;
+}
+
+section.next-post h2{
+	border: 1px solid blue;
+}
+
+section.next-post {
+ border: 5px solid green;
+} 
+*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+ section.newsletter{
+ 	height: 280px;
+ 	background: #f0f0f0;
+ 	padding-top: 70px;
+ 	margin-top: 120px;
+
+ }
+
+section.newsletter div.sign{
+	color: #626262;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+section.newsletter form{
+	width: 400px;
+	border-bottom: 1px solid #000;
+	margin: 0 auto;
+	padding-bottom: 6px;
+}
+
+section.newsletter form input{
+	border:none;
+	background: #f0f0f0;
+}
+
+section.newsletter form button{ /*редактируем кнопку*/
+     float: right;
+     border: none;
+     background: none;
+     cursor: pointer;
+}
+
+div.more a{
+	font-size: 20px;
+	color: #626262;
+	text-decoration: none;
+	padding: 20px;
+	border: 1px solid #000;
+	display: inline-block;
+	margin-top:160px;
+
+}
+
+div.more{
+	text-align: center;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+footer{
+	height: 100px;
+	background: #f0f0f0;
+	margin-top: 70px;
+}
+
+footer div.container div{
+	padding: 0 80px;
+}
+
+footer div.container p{
+	display: inline-block;
+	padding-right: 30px;
+}
+
+footer div.container a{
+	text-decoration: none;
+	color: #000;
+}
+
+footer div.container a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+ div.right img{
+ 	padding-right: 20px;
+ }
+          
+div.right, div.left{
+	margin-top: 30px;
+}
+
+
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*АДАПТИВНОСТЬ*/
+
+.img-adaptive{ /*класс для изображений*/
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
